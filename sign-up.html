@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>khabir</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--[if lt IE 9]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <style media="screen">
+    #map {
+            height: 800px;
+          }
+    </style>
+    <!--[endif]-->
+</head>
+
+<body>
+    <!--==============================================================================
+    =========================== start header  ===================================
+    ==============================================================================-->
+    <header>
+        <!-- Start nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top create-account">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/icon-1.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">User Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="offers-market.html">Offers</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End nav -->
+    </header>
+    <!--==============================================================================
+    =========================== start dashboard-page ===================================
+    ==============================================================================-->
+    <div class="dashboard-page">
+        <!-- start SignUp-PAGE -->
+        <section class="sign-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-md-left">
+                        <ul class="my-ul list-unstyled">
+                            <li data-class=".user" class="act">User</li>
+                            <li data-class=".provider">Provider</li>
+                        </ul>
+                    </div>
+                    <div class="col-md col-lg-8 user sign">
+                        <form>
+                            <div class="row">
+                                <div class="col-md row">
+                                    <div class="col-12 data">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Confirm Password</label>
+                                        <input type="password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md row">
+                                    <div class="col-4 data">
+                                        <label>Code</label>
+                                        <select class="custom-select">
+                                            <option selected>974</option>
+                                            <option>555</option>
+                                            <option>224</option>
+                                            <option>999</option>
+                                            <option>218</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-8 data">
+                                        <label>Phone number</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Email</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Location</label>
+                                        <div>
+                                            <input type="text" data-toggle="modal" data-target="#modalReg" class="form-control" id="location">
+                                        </div>
+                                        <!--Modal: Name-->
+                                        <div class="modal fade" id="modalReg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg" role="document">
+                                                <!--Content-->
+                                                <div class="modal-content">
+                                                    <!--Body-->
+                                                    <div class="modal-body mb-0 p-0">
+                                                        <!--Google map-->
+                                                        <div id="map-container-google-16" class="z-depth-1-half map-container-9">
+                                                            <div id="map"></div>
+                                                        </div>
+                                                    </div>
+                                                    <!--Footer-->
+                                                    <div class="modal-footer justify-content-center">
+                                                        <button type="button" class="btn btn-info btn-md">Save location</button>
+                                                        <button type="button" class="btn btn-outline-info btn-md" data-dismiss="modal">Close
+                                                            <i class="fa fa-times ml-1"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <!--/.Content-->
+                                            </div>
+                                        </div>
+                                        <!--Modal: Name-->
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center text-md-right">
+                                    <button>Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md col-lg-8 provider sign">
+                        <form>
+                            <div class="row">
+                                <div class="col-md row one">
+                                    <div class="col-12 data">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Password</label>
+                                        <input type="password" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Confirm Password</label>
+                                        <input type="password" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Choose Your Account Type</label>
+                                        <select class="custom-select">
+                                            <option>Individual</option>
+                                            <option>Company</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md row">
+                                    <div class="col-4 data">
+                                        <label>Code</label>
+                                        <select class="custom-select">
+                                            <option selected>974</option>
+                                            <option>555</option>
+                                            <option>224</option>
+                                            <option>999</option>
+                                            <option>218</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-8 data">
+                                        <label>Phone number</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Email</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Location</label>
+                                        <div>
+                                            <input type="button" data-toggle="modal" data-target="#modalRegular" class="form-control">
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Services</label>
+                                        <select class="custom-select">
+                                            <option>Maintainance & Home Care</option>
+                                            <option>Maintainance & Home Care</option>
+                                            <option>Maintainance & Home Care</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Maintainance & Home Care</label>
+                                        <select class="custom-select">
+                                            <option>Home Care</option>
+                                            <option>Home Care</option>
+                                            <option>Home Care</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 data">
+                                        <label>Home Care</label>
+                                        <select class="custom-select">
+                                            <option>Pets Control</option>
+                                            <option>Pets Control</option>
+                                            <option>Pets Control</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center text-md-right">
+                                    <button>Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-12 col-lg-4 text-center text-lg-left">
+                        <img src="images/sup.png" alt="user" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--==============================================================================
+    =========================== start Copyright ===================================
+    ==============================================================================-->
+    <footer class="fixed-bottom">
+        <div class="copyright text-center">
+            <div class="container">
+                2019 ©
+                <a href="#">Khabir. All rights reversed </a>
+            </div>
+        </div>
+    </footer>
+    <!-- end -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/poper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/plug.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+    <script type="text/javascript">
+    var map;
+    var address
+
+    navigator.geolocation.watchPosition(function(position) {
+        console.log("i'm tracking you!");
+      },
+      function(error) {
+        if (error.code == error.PERMISSION_DENIED)
+        alert('Geolocation is not supported by this browser. you will add your location manually')
+         $("#location").attr("data-target","");
+      });
+
+
+
+
+
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(initMap);
+      } else {
+        alert('Geolocation is not supported by this browser.')
+         $("#location").attr("data-target","");
+      }
+    }
+
+    getLocation();
+    function initMap(position) {
+        var latitude = position.coords.latitude; // YOUR LATITUDE VALUE
+        var longitude = position.coords.longitude; // YOUR LONGITUDE VALUE
+
+        var myLatLng = {lat: latitude, lng: longitude};
+
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          zoom: 14,
+          disableDoubleClickZoom: true, // disable the default map zoom on double click
+        });
+
+        // Update lat/long value of div when anywhere in the map is clicked
+        google.maps.event.addListener(map,'click',function(event) {
+          $("#modalReg").modal('hide');
+        var geocoder = new google.maps.Geocoder();
+        geocoder.geocode({
+          'latLng': event.latLng
+        }, function(results, status) {
+          if (status == google.maps.GeocoderStatus.OK) {
+            if (results[0]) {
+             address = results[0].formatted_address;
+
+             $("#location").val(address)
+             console.log(address)
+
+            }
+          }
+        });
+        });
+
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          //title: 'Hello World'
+
+          // setting latitude & longitude as title of the marker
+          // title is shown when you hover over the marker
+          title: latitude + ', ' + longitude
+        });
+
+        // Update lat/long value of div when the marker is clicked
+        marker.addListener('click', function(event) {
+          document.getElementById('latclicked').innerHTML = event.latLng.lat();
+          document.getElementById('longclicked').innerHTML =  event.latLng.lng();
+        });
+
+        // Create new marker on double click event on the map
+        google.maps.event.addListener(map,'dblclick',function(event) {
+            var marker = new google.maps.Marker({
+              position: event.latLng,
+              map: map,
+              title: event.latLng.lat()+', '+event.latLng.lng()
+            });
+
+            // Update lat/long value of div when the marker is clicked
+            marker.addListener('click', function() {
+              document.getElementById('latclicked').innerHTML = event.latLng.lat();
+              document.getElementById('longclicked').innerHTML =  event.latLng.lng();
+            });
+        });
+
+        // Create new marker on single click event on the map
+        /*google.maps.event.addListener(map,'click',function(event) {
+            var marker = new google.maps.Marker({
+              position: event.latLng,
+              map: map,
+              title: event.latLng.lat()+', '+event.latLng.lng()
+            });
+        });*/
+    }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZog_f_pr6Vymi-7FW5EixckGy6747HSc&callback=initMap"
+    async defer></script>
+  </body>
+  </html>
