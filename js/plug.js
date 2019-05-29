@@ -171,6 +171,7 @@ $(document).ready(function () {
         $('.maintainance').not($(this)).next().slideUp();
 
         $(this).css({background:"#ccc"});
+        $('.maintainance').not($(this)).css({background:"#fff"});
     });
 
 });
